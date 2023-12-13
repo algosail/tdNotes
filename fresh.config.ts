@@ -1,3 +1,7 @@
-import { defineConfig } from "$fresh/server.ts";
+import { defineConfig } from '$fresh/server.ts'
 
-export default defineConfig({});
+import stylesPlugin from '@/plugins/styles.ts'
+
+export default defineConfig({
+  plugins: [stylesPlugin],
+})

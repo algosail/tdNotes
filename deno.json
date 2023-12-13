@@ -17,10 +17,17 @@
       ]
     }
   },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
   "exclude": [
     "**/_fresh/*"
   ],
   "imports": {
+    "@/": "./",
+    "td-client": "./td-client/mod.ts",
+    "td-idb": "./td-idb/mod.ts",
     "$fresh/": "https://deno.land/x/fresh@1.6.1/",
     "preact": "https://esm.sh/preact@10.19.2",
     "preact/": "https://esm.sh/preact@10.19.2/",
